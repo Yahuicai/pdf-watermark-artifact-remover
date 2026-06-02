@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-watermark-artifact-remover"
+version = "0.1.0"
+description = "Remove PDF content blocks explicitly marked as watermark artifacts."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+    "pikepdf>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+pdf-remove-marked-watermarks = "pdf_watermark_artifact_remover.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
