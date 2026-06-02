@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <rect width="1200" height="260" fill="#ffffff"/>
+  <style>
+    .title { font: 700 22px Arial, sans-serif; fill: #1f2328; }
+    .text { font: 16px Arial, sans-serif; fill: #30363d; }
+    .box { fill: #f6f8fa; stroke: #0969da; stroke-width: 2; rx: 14; }
+    .arrow { stroke: #57606a; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <text x="40" y="42" class="title">PDF watermark artifact removal workflow</text>
+  <rect x="40" y="88" width="180" height="92" class="box"/>
+  <text x="85" y="127" class="title">Read PDF</text>
+  <text x="67" y="156" class="text">Keep vector content</text>
+  <path d="M 230 134 L 300 134" class="arrow"/>
+  <rect x="310" y="88" width="220" height="92" class="box"/>
+  <text x="354" y="127" class="title">Parse streams</text>
+  <text x="345" y="156" class="text">Inspect marked blocks</text>
+  <path d="M 540 134 L 610 134" class="arrow"/>
+  <rect x="620" y="88" width="250" height="92" class="box"/>
+  <text x="653" y="127" class="title">Remove Watermark</text>
+  <text x="652" y="156" class="text">/Subtype /Watermark</text>
+  <path d="M 880 134 L 950 134" class="arrow"/>
+  <rect x="960" y="88" width="200" height="92" class="box"/>
+  <text x="1010" y="127" class="title">Save PDF</text>
+  <text x="984" y="156" class="text">Preserve page layout</text>
+</svg>
+
