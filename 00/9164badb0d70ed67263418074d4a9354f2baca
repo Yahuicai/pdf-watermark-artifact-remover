@@ -1,0 +1,31 @@
+docs/README.zh-CN.md
+  s_ded84963718a03::t_546f39090e2491 1-16,28-85,88-117
+  s_ded84963718a03::t_a33e631778e67f 17-27,86-87
+README.md
+  s_ded84963718a03::t_546f39090e2491 3-4,16-17,32-38,50-52,58-63,85-87,90-113
+  s_ded84963718a03::t_a33e631778e67f 19-28,88-89
+docs/assets/workflow.svg
+  s_ded84963718a03::t_a33e631778e67f 1-31
+pyproject.toml
+  s_ded84963718a03::t_546f39090e2491 21-23
+  s_ded84963718a03::t_a33e631778e67f 10-11
+scripts/generate_demo_assets.py
+  s_ded84963718a03::t_546f39090e2491 1-103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.12",
+  "base_commit_sha": "009164badb0d70ed67263418074d4a9354f2baca",
+  "prompts": {},
+  "logical_commit_id": "009164badb0d70ed67263418074d4a9354f2baca",
+  "sessions": {
+    "s_ded84963718a03": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e8311-bd22-7fc1-b858-2b7318a96bb5",
+        "model": "gpt-5.5"
+      },
+      "human_author": "caiyahui.cyrus <2998-caiyahui.cyrus@users.noreply.git.sysop.bigo.sg>"
+    }
+  }
+}
