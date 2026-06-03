@@ -1,0 +1,26 @@
+docs/README.zh-CN.md
+  s_ded84963718a03::t_a2714beeec8e6b 118-125
+README.md
+  s_ded84963718a03::t_a2714beeec8e6b 122-126
+MANIFEST.in
+  s_ded84963718a03::t_cf6c5f96cadf86 1
+ATTRIBUTIONS.md
+  s_ded84963718a03::t_a2714beeec8e6b 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.12",
+  "base_commit_sha": "3e55fa66dd4cfb66c5058ab603eefb997cb8d436",
+  "prompts": {},
+  "logical_commit_id": "3e55fa66dd4cfb66c5058ab603eefb997cb8d436",
+  "sessions": {
+    "s_ded84963718a03": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e8311-bd22-7fc1-b858-2b7318a96bb5",
+        "model": "gpt-5.5"
+      },
+      "human_author": "caiyahui.cyrus <2998-caiyahui.cyrus@users.noreply.git.sysop.bigo.sg>"
+    }
+  }
+}
