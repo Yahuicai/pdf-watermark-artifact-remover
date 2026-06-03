@@ -119,3 +119,8 @@ python scripts/generate_demo_assets.py
 python -m pip install -e '.[dev]'
 pytest
 ```
+
+## Attributions
+
+See [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for the source audit, dependency
+licenses, and repositories evaluated during research.

@@ -115,3 +115,11 @@ python scripts/generate_demo_assets.py
 python -m pip install -e '.[dev]'
 pytest
 ```
+
+## 来源与许可证说明
+
+请查看 [ATTRIBUTIONS.md](../ATTRIBUTIONS.md)。其中区分了：
+
+- 实际使用的第三方依赖；
+- 仅用于生成演示图片的可选依赖；
+- 调研阶段评估过、但没有复制代码或素材的仓库。
